@@ -60,16 +60,16 @@
 .navbar ul li .submenu{
   border:2px solid black;
   background-color:yellow;
-  
+  position:relative;
 }
-.navbar ul li .submenu ul{
-  postition:relative;
-}
-.navbar ul li .submenu ul li{
+
+.navbar ul li .submenu li{
   list-style:none;
   
+  
 }
-.navbar ul li .submenu ul li a{
+.navbar ul li .submenu li a{
   text-decoration:none;
   color:black;
+  position:static;
 }
