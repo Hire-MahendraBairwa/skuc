@@ -38,11 +38,13 @@
 }
 .navbar ul{
   display:flex;
+  align-items:cemter;
+  justify-content:space-around;
 
 }
 .navbar ul li{
  list-style:none;
-  justify-content:space-around;
+ align-items:center;
   
 }
 .navbar ul li a{
