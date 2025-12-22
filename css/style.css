@@ -36,3 +36,16 @@
   height:100%;
   display:flex;
 }
+.navbar ul{
+  display:flex;
+  justify-content:space-around;
+}
+.navbar ul li{
+  text-decoration:none;
+  font-size:1vw;
+}
+.navbar ul li a{
+  list-style:none;
+  color:black;
+  
+}
