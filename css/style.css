@@ -58,6 +58,7 @@
   font-size:2vw;
 }
 .navbar ul li .submenu{
+  display:none;
   border:2px solid black;
   background-color:yellow;
   position:relative;
@@ -73,4 +74,6 @@
   color:black;
   position:static;
 }
-.
+..navbar ul li :hover .submenu{
+  display:block;
+}
