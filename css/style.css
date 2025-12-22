@@ -74,6 +74,6 @@
   color:black;
   position:static;
 }
-..navbar ul li :hover .submenu{
+..navbar ul li:hover .submenu{
   display:block;
 }
