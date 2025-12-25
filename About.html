@@ -1,0 +1,19 @@
+<html>
+  <head>
+  <titel>
+    
+  </titel>
+  </head>
+  <body>
+    <div id="callmenu"></div>
+    <script>
+       fetch("header.html")
+          .then(res => res.tex())
+           .then( data=>{
+             document.getElementById("callmenu").inner.HTML=data;
+           }
+             );
+         
+    </script>
+  </body>
+</html>
