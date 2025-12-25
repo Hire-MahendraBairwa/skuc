@@ -60,6 +60,8 @@
   font-size:2vw;
 }
 .navbar ul li .submenu{
+  width:20%;
+  height:auto;
   display:none;
   border:2px solid black;
   background-color:yellow;
