@@ -67,6 +67,7 @@
   background-color:yellow;
   position:absolute;
   top:100%;
+  transform:translate(-45px);  
 }
 
 .navbar ul li .submenu li{
@@ -82,7 +83,7 @@
   text-overflow:ellipsis;
   overflow:hidden;
   display:block;
-  transform:translate(-50px);
+ 
 }
 .navbar ul li:hover .submenu{
   display:block;
