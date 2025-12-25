@@ -7,9 +7,9 @@
     <div id="callmenu"></div>
     <script>
        fetch("header.html")
-          .then(res => res.tex())
+          .then(res => res.text())
            .then( data=>{
-             document.getElementById("callmenu").inner.HTML=data;
+             document.getElementById("callmenu").innerHTML=data;
            }
              );
          
