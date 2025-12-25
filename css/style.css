@@ -60,7 +60,7 @@
   font-size:2vw;
 }
 .navbar ul li .submenu{
-  width:20%;
+  width:150px;
   height:auto;
   display:none;
   border:2px solid black;
@@ -78,6 +78,11 @@
   text-decoration:none;
   color:black;
   position:relative;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  diplay:block;
+  transform-translate:left(-50px);
 }
 .navbar ul li:hover .submenu{
   display:block;
