@@ -81,8 +81,8 @@
   white-space:nowrap;
   text-overflow:ellipsis;
   overflow:hidden;
-  diplay:block;
-  transform-translate:left(-50px);
+  display:block;
+  transform:translate(-50px);
 }
 .navbar ul li:hover .submenu{
   display:block;
