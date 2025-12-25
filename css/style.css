@@ -48,6 +48,8 @@
   display:flex;
  list-style:none;
  align-items:center;
+  height:100%;
+  position:relative;
   
 }
 .navbar ul li a{
